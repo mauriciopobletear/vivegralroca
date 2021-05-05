@@ -457,7 +457,7 @@ section {
   margin-bottom: 0;
 }
 
-.imagen:hover {filter: saturate(180%);}
+.img:hover {filter: saturate(180%);}
 
 /*--------------------------------------------------------------
 # About
