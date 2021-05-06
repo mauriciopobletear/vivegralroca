@@ -26,11 +26,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
-img:hover {
-  -webkit-transform: rotate(360deg);
-  transform: rotate(360deg);
-}
-
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -462,7 +457,7 @@ section {
   margin-bottom: 0;
 }
 
-.img:hover {filter: saturate(180%);}
+.img:hover {filter: saturate(180%);-webkit-transform: rotate(360deg);transform: rotate(360deg);}
 
 /*--------------------------------------------------------------
 # About
